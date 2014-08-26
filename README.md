@@ -1,3 +1,3 @@
 AngularJS-Scroll-Left-Right-Directive
 =====================================
-Test
+This is a simple AngularJS directive that allows users to scroll left and right within tables.
