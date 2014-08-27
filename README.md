@@ -10,6 +10,7 @@ The left/right arrows are currently set to visible regardless of screen width, h
 * Surround your 'scrollable' area with the .scrollable CSS class
 * Add scroll button icon.
 * View the example project here: http://plnkr.co/edit/Yc0GXHYt6d4kDOC3FX5m
+* View the example when resizing browser window: http://embed.plnkr.co/Yc0GXHYt6d4kDOC3FX5m/preview
 
 ## directiveScrolling
 
