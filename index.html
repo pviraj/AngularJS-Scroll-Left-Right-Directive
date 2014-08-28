@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>AngularJS Plunker</title>
+  <script>
+    document.write('<base href="' + document.location + '" />');
+  </script>
+  <link href="style.css" rel="stylesheet" />
+  <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+  <script data-semver="1.2.21" src="https://code.angularjs.org/1.2.21/angular.js" data-require="angular.js@1.2.x"></script>
+  <script src="app.js"></script>
+</head>
+
+<body ng-app="plunker">
+  <div ng-controller="MainCtrl">
+
+    <h1>Angular directive to scroll left/right</h1>
+    <div class="scrollable-area" ng-init="sectionIndex = $index; sectionID='table1'" id="table1">
+      <div class="scrollable scroll-table">
+        <table class="table-lined table-icons credit-checks">
+          <tbody>
+            <tr>
+              <th scope="row">My numbers:</th>
+              <td ng-repeat="dataValue in myData">
+                {{ dataValue }}
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div directive-scrolling></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
