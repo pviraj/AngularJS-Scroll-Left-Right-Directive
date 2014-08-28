@@ -1,0 +1,60 @@
+.scrollable {
+  overflow-x: auto;
+  clear: both;
+}
+.scrollable > p {
+    position: absolute;
+    left: 0;
+}
+
+@media only screen and (max-width: 55em) {
+    .scrollable.scroll-table .table-blocks tr th {
+        line-height: 3.92857em;
+    }
+    .scrollable.scroll-table .table-lined tbody th {
+        line-height: 1.42857em;
+    }
+}
+
+@media all and (min-width: 55em) {
+  .scrollable {
+    overflow: visible;
+  }
+}
+
+.scroll-btns {
+  height: 1em;
+  position: relative;
+  font-size: 1.71429em;
+  cursor: pointer;
+  color: #007ac3;
+  top: 0;
+}
+
+.scroll-btns .scroll-left {
+  position: absolute;
+  left: 0;
+}
+.scroll-btns .scroll-right {
+  position: absolute;
+  right: 0;
+}
+
+@media all and (min-width: 55em) {
+  .scroll-btns {
+      display: none;
+  }
+}
+
+.icon-arrow-left .icon-arrow-right {
+  width: 10px;
+  height : 10px;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  background: #99D6FF;
+  height: 35px;
+  padding-top: 9px;
+}
